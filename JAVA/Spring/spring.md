@@ -24,7 +24,6 @@ Spring 中的动态代理机制并非简单的“CGLIB 和 JDK Proxy 两者结�
    - 默认规则：有接口则用 JDK 代理，无接口则用 CGLIB 代理。  
    - 可配置强制使用 CGLIB：通过 `@EnableAspectJAutoProxy(proxyTargetClass = true)` 或 XML 配置 `<aop:aspectj-autoproxy proxy-target-class="true"/>`，强制 Spring 对所有目标对象（无论是否有接口）都使用 CGLIB 代理。  
 
-在 Java 中，`Proxy.newProxyInstance` 是 JDK 动态代理的核心方法，其内部实现机制与你描述的有一定差异。具体来说：
 
 ## 1.2 JAVA动态代理机制
 
