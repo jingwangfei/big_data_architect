@@ -10,6 +10,8 @@
 # 二：数据治理
 
 
+
+
 # 三：数据仓库
 ## 3.1 数据建模
 模型评估方法论：  https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BB%BA%E6%A8%A1/%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E6%96%B9%E6%B3%95%E8%AE%BA.md
@@ -29,5 +31,10 @@ https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E
 ## 7.1 网络优化
 网络监控 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98/%E7%BD%91%E7%BB%9C%E4%BC%98%E5%8C%96.md
 
-## 7.2 软件性能测试分析与调优实践读后感 
-https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E8%BD%AF%E4%BB%B6%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E5%88%86%E6%9E%90%E4%B8%8E%E8%B0%83%E4%BC%98%E5%AE%9E%E8%B7%B5%E4%B9%8B%E8%B7%AF%E8%AF%BB%E5%90%8E%E6%84%9F.md
+## 7.2 其他
+软件性能测试分析与调优实践读后感  https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E8%BD%AF%E4%BB%B6%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E5%88%86%E6%9E%90%E4%B8%8E%E8%B0%83%E4%BC%98%E5%AE%9E%E8%B7%B5%E4%B9%8B%E8%B7%AF%E8%AF%BB%E5%90%8E%E6%84%9F.md
+
+# 八： 数据中台
+## 8.1 数据中台架构
+8.1 数据中台架构图https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%8F%B0/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%8F%B0.md
+
