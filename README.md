@@ -28,3 +28,6 @@ https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E
 # 七：性能优化
 ## 7.1 网络优化
 网络监控 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98/%E7%BD%91%E7%BB%9C%E4%BC%98%E5%8C%96.md
+
+## 7.2 
+软件性能测试分析与调优实践读后感 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E8%BD%AF%E4%BB%B6%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E5%88%86%E6%9E%90%E4%B8%8E%E8%B0%83%E4%BC%98%E5%AE%9E%E8%B7%B5%E4%B9%8B%E8%B7%AF%E8%AF%BB%E5%90%8E%E6%84%9F.md
