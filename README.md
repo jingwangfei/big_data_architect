@@ -24,3 +24,6 @@ https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E
 
 
 # 六：分布式
+
+# 七：性能优化
+## 7.1 网络监控 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98/%E7%BD%91%E7%BB%9C%E4%BC%98%E5%8C%96.md
