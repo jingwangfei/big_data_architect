@@ -6,6 +6,8 @@
 
 ## 2.1 架构师体系
 2.1.1 架构定义：https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E5%B8%88/images/%E7%AC%AC1%E8%AF%BE-%E6%9E%B6%E6%9E%84%E5%AE%9A%E4%B9%89%EF%BC%8850%EF%BC%89v2_00.png
+2.1.2
+https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E5%B8%88/%E6%9E%B6%E6%9E%84%E8%AF%BE%E7%A8%8B/%E7%AC%AC15%E8%AF%BE%20LLM%20Agents.pdf
 
 # 二：数据治理
 
