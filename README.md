@@ -8,6 +8,9 @@
 2.1.1 第1课-架构定义
 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E5%B8%88/%E6%9E%B6%E6%9E%84%E8%AF%BE%E7%A8%8B/%E7%AC%AC1%E8%AF%BE-%E6%9E%B6%E6%9E%84%E5%AE%9A%E4%B9%89.pdf
 
+2.1.2 第2课-实现软件架构
+https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E5%B8%88/%E6%9E%B6%E6%9E%84%E8%AF%BE%E7%A8%8B/%E7%AC%AC2%E8%AF%BE%20%E5%AE%9E%E7%8E%B0%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84.pdf
+
 2.1.10 第10课 软件架构行为模式
 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E5%B8%88/%E6%9E%B6%E6%9E%84%E8%AF%BE%E7%A8%8B/%E7%AC%AC10%E8%AF%BE%20%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E8%A1%8C%E4%B8%BA%E6%A8%A1%E5%BC%8F.pdf
 
