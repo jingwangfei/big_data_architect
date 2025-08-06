@@ -11,6 +11,26 @@ https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E
 2.1.2 第2课-实现软件架构
 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E5%B8%88/%E6%9E%B6%E6%9E%84%E8%AF%BE%E7%A8%8B/%E7%AC%AC2%E8%AF%BE%20%E5%AE%9E%E7%8E%B0%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84.pdf
 
+2.1.3 第3课 软件架构文档化
+https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E5%B8%88/%E6%9E%B6%E6%9E%84%E8%AF%BE%E7%A8%8B/%E7%AC%AC3%E8%AF%BE%20%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E6%96%87%E6%A1%A3%E5%8C%96.pdf
+
+2.1.4 第4课 质量属性概述
+https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E5%B8%88/%E6%9E%B6%E6%9E%84%E8%AF%BE%E7%A8%8B/%E7%AC%AC4%E8%AF%BE%20%E8%B4%A8%E9%87%8F%E5%B1%9E%E6%80%A7%E6%A6%82%E8%BF%B0.pdf
+
+2.1.5 第5课 质量属性-安全性-可测试性
+https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E5%B8%88/%E6%9E%B6%E6%9E%84%E8%AF%BE%E7%A8%8B/%E7%AC%AC5%E8%AF%BE%20%E8%B4%A8%E9%87%8F%E5%B1%9E%E6%80%A7-%E5%AE%89%E5%85%A8%E6%80%A7-%E5%8F%AF%E6%B5%8B%E8%AF%95%E6%80%A7.pdf
+
+2.1.6 第6课 质量属性-性能-其它
+https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E5%B8%88/%E6%9E%B6%E6%9E%84%E8%AF%BE%E7%A8%8B/%E7%AC%AC6%E8%AF%BE%20%E8%B4%A8%E9%87%8F%E5%B1%9E%E6%80%A7-%E6%80%A7%E8%83%BD-%E5%85%B6%E5%AE%83.pdf
+
+2.1.7 第7课 模块化方法
+https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E5%B8%88/%E6%9E%B6%E6%9E%84%E8%AF%BE%E7%A8%8B/%E7%AC%AC7%E8%AF%BE%20%E6%A8%A1%E5%9D%97%E5%8C%96%E6%96%B9%E6%B3%95.pdf
+
+2.1.8 第8课 架构模式-模块划分模式https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E5%B8%88/%E6%9E%B6%E6%9E%84%E8%AF%BE%E7%A8%8B/%E7%AC%AC8%E8%AF%BE%20%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%BC%8F-%E6%A8%A1%E5%9D%97%E5%88%92%E5%88%86%E6%A8%A1%E5%BC%8F.pdf
+
+2.1.9 第9 课 软件架构-行为模式
+https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E5%B8%88/%E6%9E%B6%E6%9E%84%E8%AF%BE%E7%A8%8B/%E7%AC%AC9%20%E8%AF%BE%20%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84-%E8%A1%8C%E4%B8%BA%E6%A8%A1%E5%BC%8F.pdf
+
 2.1.10 第10课 软件架构行为模式
 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E5%B8%88/%E6%9E%B6%E6%9E%84%E8%AF%BE%E7%A8%8B/%E7%AC%AC10%E8%AF%BE%20%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E8%A1%8C%E4%B8%BA%E6%A8%A1%E5%BC%8F.pdf
 
