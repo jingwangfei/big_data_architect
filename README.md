@@ -53,6 +53,9 @@ https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E
 数据仓库优化方案初版：
 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E4%BC%98%E5%8C%96%E6%96%B9%E6%A1%88.md
 
+## 3.2 性能优化
+性能优化 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.md
+
 # 四：大数据
 
 
