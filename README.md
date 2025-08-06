@@ -41,7 +41,8 @@ https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E
 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%9E%B6%E6%9E%84%E5%B8%88/%E6%9E%B6%E6%9E%84%E8%AF%BE%E7%A8%8B/%E7%AC%AC12%E8%AF%BE%20%E4%BA%91%E5%8E%9F%E7%94%9FCloudNative.pdf
 
 # 二：数据治理
-
+## 2.1 数据质量
+数据一致性保障 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E6%B2%BB%E7%90%86/%E6%95%B0%E6%8D%AE%E8%B4%A8%E9%87%8F/%E6%95%B0%E6%8D%AE%E8%B4%A8%E9%87%8F.md
 
 
 
