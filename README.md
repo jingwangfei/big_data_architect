@@ -56,6 +56,8 @@ https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E
 ## 3.2 性能优化
 性能优化 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.md
 
+orc存储格式优化 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/ORC%E6%96%87%E4%BB%B6%E4%BC%98%E5%8C%96.md
+
 # 四：大数据
 
 
