@@ -86,7 +86,9 @@ HDFS 对小文件（远小于块大小的文件）处理效率低，过多小文
 
 ### 测试过程与效果
 1. **未合并前**：表 `test_orc_001` 存在大量小文件（多数为 99 字节），文件数量多且分散。
-  
+<img width="2212" height="874" alt="image" src="https://github.com/user-attachments/assets/b618610e-d16c-424a-99ba-507de726adcc" />
+
+
 3. **启用合并配置**：
 ```sql
 SET hive.merge.mapfiles = true;  -- 合并 Map 任务输出文件
