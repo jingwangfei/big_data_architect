@@ -106,6 +106,9 @@ WHERE partition_date BETWEEN "2025-05-01 00:00:00" AND "2025-05-01 00:01:00";
 <img width="2418" height="852" alt="image" src="https://github.com/user-attachments/assets/376dd679-21b9-40d1-a3b5-f03ad05bf849" />
 
 
+## 五：看到一篇论文，是在ORC之上的一种新的文件格式，可以参考
+面向用户行为日志的列式存储系统设计与实现_汪福杰
+
 
 ## 总结：ORC 性能优化的最佳实践
 1. **Bloom 过滤器**：对高频查询的列（如用户 ID、时间）启用，设置合理误判率（如 0.01）；
