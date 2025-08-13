@@ -70,6 +70,9 @@ ORC存储格式优化 & 小文件优化 https://github.com/jingwangfei/big_data_
 ## 7.1 网络优化
 网络监控 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98/%E7%BD%91%E7%BB%9C%E4%BC%98%E5%8C%96.md
 
+## JVM调优
+jvm调优前置操作 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98/JVM%E8%B0%83%E4%BC%98%E5%89%8D%E7%BD%AE.md
+
 ## 7.2 其他
 性能优化体系 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E6%96%B9%E6%B3%95%E8%AE%BA.md
 
