@@ -5,9 +5,11 @@
 在大数据场景中，数据存储格式和性能优化直接影响查询效率与资源消耗。ORC（Optimized Row Columnar）作为一种高效的列式存储格式，凭借其出色的压缩率和查询性能，成为 Hive 等大数据框架的首选。本文结合实际测试案例，从 Bloom 过滤器配置、压缩算法选择、小文件合并三个核心维度，分享 ORC 性能优化的实操经验。
 
 
+
 ## 一、环境准备：测试与生产环境的基础配置
 在开始优化前，需确保连接到正确的环境执行操作。本次测试涉及测试环境与生产环境的入库、查询节点，核心连接命令如下（以 beeline 为例）：
 - **测试环境**：`beeline -u "jdbc:hive2://xxx:10000/mobile_db" -n test -p 123 --maxWidth=3000`
+
 
 ## 二、Bloom 过滤器：加速查询的“精准定位”神器
 ORC 的 Bloom 过滤器能在查询时快速判断数据是否可能存在，减少不必要的文件扫描，尤其适合等值查询场景（如 `WHERE msisdn = 138xxxxxxx`）。
@@ -27,7 +29,22 @@ TBLPROPERTIES (
 );
 ```
 2. **数据插入**：通过 `INSERT OVERWRITE` 从源表同步数据，确保过滤器生效。
-3. **验证过滤器**：使用 `hive --orcfiledump` 查看文件结构，可发现 `msisdn` 和 `yhswipdz` 列存在 `BLOOM FILTER` 流，说明过滤器已成功生成。
+```sql
+INSERT OVERWRITE TABLE test.test_orc_003
+SELECT *
+FROM test.test_orc_002
+;
+```
+4. **验证过滤器**：使用 `hive --orcfiledump` 查看文件结构，可发现 `msisdn` 和 `yhswipdz` 列存在 `BLOOM FILTER` 流，说明过滤器已成功生成。
+```shell
+kinit test
+
+hdfs dfs -ls 'hdfs://nameservice1/user/hive/warehouse/test.db/test/test_orc_003'
+
+hive --orcfiledump hdfs://nameservice1/user/hive/warehouse/test.db/test/test_orc_003/000053_0
+```
+<img width="1808" height="908" alt="image" src="https://github.com/user-attachments/assets/d0c21da1-202d-4044-99ea-17426ac9d837" />
+
 
 ### 效果说明
 Bloom 过滤器通过预先存储列值的哈希信息，在查询时快速排除不含目标值的文件，显著减少 I/O 操作，尤其在高基数列（如用户 ID、IP 地址）上效果明显。
