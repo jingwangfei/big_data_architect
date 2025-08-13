@@ -28,6 +28,8 @@ TBLPROPERTIES (
   "orc.bloom.filter.fpp" = "0.01"  -- 误判率（False Positive Probability）设为 1%
 );
 ```
+<img width="1546" height="724" alt="image" src="https://github.com/user-attachments/assets/5abe99b2-dcd3-4b2d-a8d2-8e9a9b63a624" />
+
 2. **数据插入**：通过 `INSERT OVERWRITE` 从源表同步数据，确保过滤器生效。
 ```sql
 INSERT OVERWRITE TABLE test.test_orc_003
@@ -68,6 +70,8 @@ TBLPROPERTIES (
   "orc.compress" = "SNAPPY"  -- 指定 Snappy 压缩
 );
 ```
+<img width="1686" height="890" alt="image" src="https://github.com/user-attachments/assets/67914a5e-ce48-4cd4-85b3-1fa90a496321" />
+
 2. **性能对比**：
    - **速度**：Snappy 压缩速度达 250-500 MB/s，解压速度 500-1000 MB/s，是 Zlib 的 2-5 倍；Zlib 压缩速度随级别升高下降明显（级别 1 约 75 MB/s，级别 9 仅 23 MB/s）。
    - **压缩率**：Zlib 压缩率更高（尤其级别 6-9），但 Snappy 压缩后的文件更大（通常比 Zlib 高 20%-100%）。例如，某文本文件经 Snappy 压缩后为 138 MB，Zlib（级别 6）仅 64 MB。
@@ -82,7 +86,8 @@ HDFS 对小文件（远小于块大小的文件）处理效率低，过多小文
 
 ### 测试过程与效果
 1. **未合并前**：表 `test_orc_001` 存在大量小文件（多数为 99 字节），文件数量多且分散。
-2. **启用合并配置**：
+  
+3. **启用合并配置**：
 ```sql
 SET hive.merge.mapfiles = true;  -- 合并 Map 任务输出文件
 SET hive.merge.mapredfiles = true;  -- 合并 Reduce 任务输出文件
@@ -92,10 +97,12 @@ SET hive.merge.smallfiles.avgsize = 10000000;  -- 触发合并的平均文件大
 -- 执行插入任务触发合并
 INSERT OVERWRITE TABLE test.test_orc_001
 SELECT msisdn, yhswipdz, partition_date
-FROM mobile_db.orc_4glog_2c_log
+FROM xxxx
 WHERE partition_date BETWEEN "2025-05-01 00:00:00" AND "2025-05-01 00:01:00";
 ```
 3. **合并后效果**：文件大小明显增大（多数为 100-150 MB），数量大幅减少， namenode 负载降低，查询时文件扫描效率提升。
+<img width="2418" height="852" alt="image" src="https://github.com/user-attachments/assets/376dd679-21b9-40d1-a3b5-f03ad05bf849" />
+
 
 
 ## 总结：ORC 性能优化的最佳实践
