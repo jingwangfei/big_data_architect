@@ -65,6 +65,14 @@ ORC存储格式优化 & 小文件优化 https://github.com/jingwangfei/big_data_
 spark AQE skew join的原理 
 https://github.com/jingwangfei/big_data_architect/blob/main/%E5%A4%A7%E6%95%B0%E6%8D%AE/Spark/sparksql/skew_join.md
 
+
+## 3.3 规范文档
+数仓架构规范 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/%E8%A7%84%E8%8C%83%E6%96%87%E6%A1%A3/%E6%95%B0%E4%BB%93%E6%9E%B6%E6%9E%84%E8%A7%84%E8%8C%83.md
+
+数仓命名规范 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/%E8%A7%84%E8%8C%83%E6%96%87%E6%A1%A3/%E6%95%B0%E4%BB%93%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83.md
+
+ETL规范文档 https://github.com/jingwangfei/big_data_architect/blob/main/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/%E8%A7%84%E8%8C%83%E6%96%87%E6%A1%A3/ETL%E8%A7%84%E8%8C%83%E6%96%87%E6%A1%A3.md
+
 # 四：大数据
 
 
