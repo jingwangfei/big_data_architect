@@ -242,14 +242,9 @@ FROM tmp_books;
 数据同步目前支持2种方式：**离线同步（CDM）** 和**实时同步（Flink）**。
 
 #### 4.2.1 CDM 与 Flink 选择逻辑
-```mermaid
-graph TD
-    A[数据接入需求] --> B{是否要求实时处理？}
-    B -- 是（如流量日志） --> C[Flink实时ELT]
-    B -- 否（低时效性，隔天处理） --> D{是否为RDS数据源且数据量巨大？}
-    D -- 是（如Flink_blog） --> E[Flink CDC同步]
-    D -- 否（RDS小数据量/其他数据源） --> F[CDM同步]
-```
+
+<img width="1274" height="750" alt="image" src="https://github.com/user-attachments/assets/f4e0ab8b-15c2-40e4-8a9a-914a7ba01471" />
+
 **注意**：Flink采用实时计算资源，即使数据量少，只要占用CU就会消耗资源，需谨慎选择。
 
 #### 4.2.2 命名规范
